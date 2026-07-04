@@ -1,0 +1,4 @@
+_deploy/
+node_modules/
+.wrangler/
+.dev.vars
