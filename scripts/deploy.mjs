@@ -5,6 +5,7 @@ const out = "_deploy";
 rmSync(out, { recursive: true, force: true });
 mkdirSync(out, { recursive: true });
 cpSync("index.html", `${out}/index.html`);
+cpSync("favicon.svg", `${out}/favicon.svg`);
 cpSync("assets", `${out}/assets`, { recursive: true });
 
 const result = spawnSync("npx", ["wrangler", "deploy"], {
