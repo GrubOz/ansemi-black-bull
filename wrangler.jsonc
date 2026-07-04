@@ -1,0 +1,11 @@
+{
+  "name": "ansemi-black-bull",
+  "compatibility_date": "2026-07-04",
+  "assets": {
+    "directory": "./_deploy"
+  },
+  "routes": [
+    { "pattern": "ansemisol.com", "custom_domain": true },
+    { "pattern": "www.ansemisol.com", "custom_domain": true }
+  ]
+}
